@@ -109,7 +109,7 @@
         admin_username: "{{ rhel_admin_user }}"
         admin_password: "{{ rhel_admin_password }}"
         network_interfaces: "{{ rhel_nic_name }}"
-        ssh_password_enabled: true
+        ssh_password_enabled: false
         tags:
           "name": "{{ rhel_vm_name }}"
           "demo": "true"
